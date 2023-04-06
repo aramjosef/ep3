@@ -1,0 +1,32 @@
+
+main{
+    text-align:justify;
+    margin: auto;
+    max-width: 800px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+p{
+    font-size: 25px;
+}
+
+main li{
+    font-size: 25px;
+}
+
+body{
+    background-image: url("https://www.xtrafondos.com/descargar.php?id=4052&resolucion=3840x2160");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+
+
+
+
+}
+
+
+
