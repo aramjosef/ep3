@@ -28,5 +28,34 @@ body{
 
 }
 
+h1{
+    text-align: center;
+}
 
+nav li{
+    color:white;
+    text-decoration: none;
+    list-style: none;
+}
 
+nav {
+    padding: 30px; /* Adiciona 20 pixels de espaço em branco dentro do elemento */
+}
+  
+nav ul {
+    list-style: none; /* Remove a lista de marcadores padrão do elemento */
+    margin: 0; /* Remove as margens padrão do elemento */
+    padding: 0; /* Remove os espaços em branco padrão do elemento */
+    display: flex; /* Usa o modelo de caixa flexível para a lista de itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    font-size: 20px;
+}
+  
+nav li {
+    margin: 0 30px; /* Adiciona uma margem de 0 pixels acima e abaixo e 30 pixels à esquerda e à direita */
+}
+  
+nav a {
+    color: #fff; /* Define a cor do texto como branco */
+    text-decoration: none; /* Remove a decoração de texto padrão */
+}
