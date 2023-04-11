@@ -5,6 +5,7 @@ main{
     max-width: 800px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
+    padding: 1px 20px 1px 20px;
 }
 
 p{
@@ -15,17 +16,11 @@ main li{
     font-size: 25px;
 }
 
-body{
+.fundo1{
     background-image: url("https://www.xtrafondos.com/descargar.php?id=4052&resolucion=3840x2160");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-
-
-
-
-
 }
 
 h1{
@@ -58,4 +53,11 @@ nav li {
 nav a {
     color: #fff; /* Define a cor do texto como branco */
     text-decoration: none; /* Remove a decoração de texto padrão */
+}
+
+.fundo2{
+    background-image: url("https://images2.alphacoders.com/956/956696.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
