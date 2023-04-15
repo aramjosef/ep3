@@ -1,0 +1,98 @@
+
+main{
+    text-align:justify;
+    margin: auto;
+    max-width: 800px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1px 20px 1px 20px;
+}
+
+p{
+    font-size: 25px;
+}
+
+main li{
+    font-size: 25px;
+}
+
+.fundo1{
+    background-image: url("https://www.xtrafondos.com/descargar.php?id=4052&resolucion=3840x2160");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.fundo2{
+    background-image: url("https://images2.alphacoders.com/956/956696.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.fundo3{
+    background-image: url("https://images4.alphacoders.com/101/1011715.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fundo4{
+    background-image: url("https://images.alphacoders.com/592/592444.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    text-align: center;
+}
+
+nav a{
+    color: white;   /*para dar cor a algo*/
+    padding:7px;
+    transition:2s;   /*serve para criar uma transição(animação)*/
+    font-size:24px;   /*muda o tamanho da font*/
+    text-decoration: none;   /*caso queira mudar a decoração do texto ou tirar*/
+    font-weight: bold;   /*peso da fonte de um elemento de texto, no caso bold é para negrito*/
+  }
+  
+  nav ul {
+    list-style: none;   /*para escolher um estilo de lista*/
+    margin: 0;
+    padding: 0;
+    display: flex;   /*pode ser usada para alterar a exibição padrão de um elemento*/
+    justify-content: center;   /*escolher onde o conteúdo desejado fica*/
+  }
+  
+  nav li {
+    display: inline;
+    margin: 15px 100px 15px 100px;
+  }
+  
+  nav a:hover{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+  }
+
+
+header{
+    text-align: center;   /*essa tag serva para alinhar o texto*/
+padding: 10px;   /*é usado para o prenchimento ou uma melhor organização*/
+
+
+}
+.logo{
+    width:100px;
+    border-radius: 50%;   /*serve para definir os raios dos cantos da borda então quanto maior mais redonda*/
+    transition: 2s;
+    justify-content: center;
+    }
+
+    div a :hover{
+        width: 120px;
+        border-radius: 50%;
+        transition: 2s;
+    }
